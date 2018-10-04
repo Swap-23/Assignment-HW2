@@ -13,7 +13,7 @@ public class Dictionary_Keywords
         String Line1=null;  
         String Line2=null; 
         String Dictionary[]=new String[16000]; // Array of size 16000 to store the words read from Dictionary file.
-        String Keywords[]=new String[84]; // Array of size 84 to store the words read from Keywords file.
+        String Keywords[]=new String[84]; //  Array of size 84 to store the words read from Keywords file.
         int i=0;
         while((Line1=Dict.readLine()) != null)
         {
@@ -63,7 +63,7 @@ static void Sort(String[] A)
 		{
 			for(int j=0;j<l-i-1;++j)
 			{
-				if(A[j].compareTo(A[j+1])>0) // Inbuilt compareTo function for compaaring two strings
+				if(A[j].compareTo(A[j+1])>0) //  Inbuilt compareTo function for compaaring two strings
 				{                            
 					String temp=A[j]; 
 					A[j]=A[j+1];

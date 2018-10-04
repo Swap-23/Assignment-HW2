@@ -63,7 +63,7 @@ static void Sort(String[] A)
 		{
 			for(int j=0;j<l-i-1;++j)
 			{
-				if(A[j].compareTo(A[j+1])>0) //  Inbuilt compareTo function for comparing two strings
+				if(A[j].compareTo(A[j+1])>0) //  Inbuilt  compareTo function for comparing two strings
 				{                            
 					String temp=A[j]; 
 					A[j]=A[j+1];
